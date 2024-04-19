@@ -28,6 +28,9 @@ public class JavaCollectiion {
 		System.out.println(Name);
 		
 		System.out.println(Name.get(0));		//print specific
+
+		Name.clear();							//to clear list
+		System.out.println(Name);
 		
 	}
 }
@@ -41,4 +44,5 @@ O/P:
 [Rushi, Anurag, Karan, Arjun, Anish]
 [Anish, Anurag, Karan, Arjun, Anish]
 Anish
+[]
 */
